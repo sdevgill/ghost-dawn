@@ -4,7 +4,9 @@
     "version": "1.0.0",
     "private": true,
     "engines": {
-        "ghost": ">=5.0.0"
+        "ghost": ">=5.0.0",
+        "npm": ">=8.0.0 <9.0.0",
+        "node": ">=16.0.0 <17.0.0"
     },
     "license": "MIT",
     "author": {
@@ -101,13 +103,14 @@
         "autoprefixer": "10.4.12",
         "beeper": "2.1.0",
         "cssnano": "5.1.13",
+        "ghost-cli": "^1.23.0",
         "gscan": "4.34.0",
-        "gulp": "4.0.2",
+        "gulp": "^4.0.2",
         "gulp-concat": "2.6.1",
         "gulp-livereload": "4.0.2",
         "gulp-postcss": "9.0.1",
         "gulp-uglify": "3.0.2",
-        "gulp-zip": "5.1.0",
+        "gulp-zip": "^4.2.0",
         "postcss": "8.4.16",
         "postcss-easy-import": "4.0.0",
         "pump": "3.0.0"
